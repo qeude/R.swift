@@ -130,7 +130,7 @@ private let disallowedCharacters: CharacterSet = {
     disallowed.formUnion(CharacterSet.symbols)
     disallowed.formUnion(CharacterSet.illegalCharacters)
     disallowed.formUnion(CharacterSet.controlCharacters)
-    disallowed.remove(charactersIn: "_")
+//    disallowed.remove(charactersIn: "_")
 
     // Emoji ranges, roughly based on http://www.unicode.org/Public/emoji/1.0//emoji-data.txt
     [
